@@ -1,65 +1,63 @@
-#main-navbar{
-    background-color: blue;
-    overflow: hidden;
-  }
-  
-  #navbar-container{
-    width: 100%;
-    text-align: center;
-  }
-  
-  #navbar-container ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-  }
-  
-  #navbar-container ul li{
-    float: left;
-  }
-  
-  #navbar-container ul li a{
-    display: block;
-    padding: 10px 20px;
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  #navbar-container ul li a:hover{
-    background-color: #000;
-  }
-  
-  #onpage{
-    text-decoration: underline overline;
-  }
-  
-  #sidebar{
-    background-color: red;
-    position: fixed;
-    right: 0%;
-    height: 100%;
-    width: 20%;
-  }
-  
-  #sidebar-container{
-    text-align: center;
-  }
-  
-  #sidebar-container ul{
-    list-style-type: none;
-    padding: 0;
-    display: block;
-  }
-  
-  #sidebar-container ul li a{
-    display: block;
-    padding: 15px 0;
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  #sidebar-container ul li a:hover{
-    background-color: #000;
-  }
-  made my Lucien Talavera 
+#main-navbar {
+	background-color: blue;
+	overflow: hidden;
+}
+
+#onpage {
+	text-decoration: underline overline;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+ul li a {
+	display: block;
+	color: #fff;
+  text-decoration: none;
+}
+
+a:hover{
+	background-color: #000;
+}
+
+#main-navbar ul{
+  float: left;
+  position:relative;
+  margin: 0;
+  left: 50%;
+}
+
+#main-navbar ul li {
+  float:left;
+  position: relative;
+  right:50%;
+  display: block;
+}
+
+#main-navbar ul li a{
+  padding: 10px 20px;
+}
+
+#navbar-container {
+	width: 100%;
+	float: left;
+	position: relative;
+}
+
+
+
+#sidebar {
+	position: fixed;
+	right: 0%;
+	background-color: red;
+	height: 100%;
+	width: 20%;
+	list-style-type: none;
+	text-align: center;
+	
+}
+#sidebar a{
+	padding: 15px 0;
+}
